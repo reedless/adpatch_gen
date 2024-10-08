@@ -7,7 +7,7 @@
     "tensorboard_port": 8994,
     "tensorboard_batch_log_interval": 15,
     "weights_file": "best.pt",
-    "triplet_printfile": "adv_patch_gen/utils/30_rgb_triplets.csv",
+    "triplet_printfile": "adpatch_gen/utils/30_rgb_triplets.csv",
     "device": "cuda:0",
     "use_amp": true,
     "patch_name": "base",
