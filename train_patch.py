@@ -30,11 +30,11 @@ from utils.torch_utils import select_device
 from utils.general import non_max_suppression, xyxy2xywh
 
 from test_patch import PatchTester
-from utils.config_parser import get_argparser, load_config_object
-from utils.common import is_port_in_use, pad_to_square, IMG_EXTNS
-from utils.dataset import YOLODataset
-from utils.patch import PatchApplier, PatchTransformer
-from utils.loss import MaxProbExtractor, SaliencyLoss, TotalVariationLoss, NPSLoss
+from adpatch_gen.utils.config_parser import get_argparser, load_config_object
+from adpatch_gen.utils.common import is_port_in_use, pad_to_square, IMG_EXTNS
+from adpatch_gen.utils.dataset import YOLODataset
+from adpatch_gen.utils.patch import PatchApplier, PatchTransformer
+from adpatch_gen.utils.loss import MaxProbExtractor, SaliencyLoss, TotalVariationLoss, NPSLoss
 
 # optionally set seed for repeatability
 SEED = None

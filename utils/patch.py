@@ -7,7 +7,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from adv_patch_gen.utils.median_pool import MedianPool2d
+from adpatch_gen.utils.median_pool import MedianPool2d
 
 
 class PatchTransformer(nn.Module):

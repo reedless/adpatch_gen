@@ -25,10 +25,10 @@ from utils.general import non_max_suppression, xyxy2xywh
 from utils.torch_utils import select_device
 from utils.plots import Annotator, colors
 
-from utils.config_parser import get_argparser, load_config_object
-from utils.patch import PatchApplier, PatchTransformer
-from utils.common import pad_to_square, BColors, IMG_EXTNS
-from utils.video import (
+from adpatch_gen.utils.config_parser import get_argparser, load_config_object
+from adpatch_gen.utils.patch import PatchApplier, PatchTransformer
+from adpatch_gen.utils.common import pad_to_square, BColors, IMG_EXTNS
+from adpatch_gen.utils.video import (
     ffmpeg_create_video_from_image_dir,
     ffmpeg_combine_two_vids,
     ffmpeg_combine_three_vids,

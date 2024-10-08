@@ -1,7 +1,7 @@
 {
-    "image_dir": "adpatch_gen/data/visdrone_data/VisDrone2019-DET-train/images",
-    "label_dir": "adpatch_gen/data/visdrone_data/VisDrone2019-DET-train/labels",
-    "val_image_dir": "adpatch_gen/data/visdrone_data/VisDrone2019-DET-val/images",
+    "image_dir": "data/visdrone_data/VisDrone2019-DET-train/images",
+    "label_dir": "data/visdrone_data/VisDrone2019-DET-train/labels",
+    "val_image_dir": "data/visdrone_data/VisDrone2019-DET-val/images",
     "use_even_odd_images": "all",
     "log_dir": "runs/train_adversarial",
     "tensorboard_port": 8994,
